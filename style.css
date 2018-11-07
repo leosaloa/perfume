@@ -1,0 +1,29 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.menu{
+    display: flex;
+    margin: 5px;
+    justify-content: flex-end;
+}
+.menu :hover{
+    background-color: #2b2b2b;
+    cursor: pointer;
+}
+
+button{
+    font-family: inherit;
+    color: #fff;
+    background-color: #030303;
+    border: 1px solid #fff; 
+    width: 100px;
+    height: 30px;
+}
+
+h1{
+    flex: 1;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 1.5em;     
+}
