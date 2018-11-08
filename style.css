@@ -4,7 +4,7 @@ body{
 
 .menu{
     display: flex;
-    margin: 5px;
+    margin: 45px 3px;
     justify-content: flex-end;
 }
 .menu :hover{
@@ -21,9 +21,22 @@ button{
     height: 30px;
 }
 
+.titulo{
+    background-color: #030303;
+}
 h1{
-    flex: 1;
-    padding: 0 5px;
+    position: fixed;
+    top: 0px;
+    left: 0%;
     text-align: center;
-    font-size: 1.5em;     
+    color: #fff;
+    font-size: 2em;  
+    width: 100%;
+}
+
+img { 
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    margin: 0px 10px;
 }
